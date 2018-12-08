@@ -14,6 +14,5 @@ print(bool(34))
 print(bool(0))
 print(bool("df"))
 print(bool(""))
-t  = 123
-n1 = hex(t)
-print(n1)
+
+print(hex(123))
