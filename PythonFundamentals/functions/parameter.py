@@ -39,8 +39,13 @@ def calc (*numbers):
     for n in numbers:
         sum = sum + n*n
     return sum
-calc(1,2,3,4,5,56)
-calc()
+calc(1,2,3,4,5,56) # 3191
+calc() # 0
+def string(*string):
+    print(type(string))
+string('abcdefg') # tuple
+print(type('abcdefg')) # str
+
 
 nums = [1,2,3,4,5]
 # calc(nums)  error
