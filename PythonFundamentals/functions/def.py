@@ -45,3 +45,4 @@ def quadratic(a,b,c):
         print(x1,x2)
         return x1,x2
 quadratic(1,3,1)
+quadratic(1,2,3)
