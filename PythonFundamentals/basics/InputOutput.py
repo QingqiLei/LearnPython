@@ -21,3 +21,12 @@ print(len(x))
 # %d 整数  %f 浮点数  %s 字符串  %x 十六进制整数
 print("hello, %s"%'world')
 print('growth rate: %d %%' % 7)
+
+print ("His name is %s"%("Aviad"))
+print ("He is %d years old"%(25))
+print ("His height is %f m"%(1.83))
+print ("His height is %.2f m"%(1.83))
+print ("Name:%10s Age:%8d Height:%8.2f"%("Aviad",25,1.83))
+print ("Name:%-10s Age:%-8d Height:%-8.2f"%("Aviad",25,1.83))
+print ("Name:%-10s Age:%08d Height:%08.2f"%("Aviad",25,1.83))
+print(format(0.0015,'.2e'))
