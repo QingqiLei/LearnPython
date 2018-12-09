@@ -20,3 +20,5 @@ def run_twice(animal): # just to make sure animal has run() method
 
 run_twice(dog)
 run_twice(cat)
+type(dog) == Dog
+type(dog) == Animal
