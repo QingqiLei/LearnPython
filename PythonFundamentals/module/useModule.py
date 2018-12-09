@@ -28,3 +28,5 @@ def greeting(name):
 
 print(greeting('mi'))
 print(greeting('micc'))
+print(sys.path)
+sys.path.append('D:')
