@@ -7,5 +7,5 @@ class Student(object):
 
 s = Student('Bob')
 s.score = 90
-Student.name
+Student.name #student
 Student.count
