@@ -11,8 +11,9 @@ class Student(object):
             raise ValueError("bad score")
 bart = Student('wang',16)
 # bart.__name  we can not access it
-bart._Student__name
+bart._Student__name #wang
 bart.__name = "li" # inside the class, the __name has already become _Student__name
-bart.print_score()
+bart.print_score() # wang: 16, (bart.)
+bart._Student__name # wang
 
-bart.__name
+bart.__name # li
