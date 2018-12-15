@@ -1,3 +1,4 @@
+# https://docs.python.org/3/library/functions.html#open
 f = open('/usr/local/PythonCode/LearnPython/learning.py','r')
 f.read()
 f.close
