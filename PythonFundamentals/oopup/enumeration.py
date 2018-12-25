@@ -15,12 +15,6 @@ class Weekday(Enum):
     Thu = 4
     Fri = 5
     Sat = 6
-<<<<<<< HEAD
-WeekDay.Mon
-type(WeekDay.Thu)
-type(WeekDay(5))
-
-=======
 print(Weekday.Mon)
 
 print(Weekday['Sun'])
@@ -29,7 +23,6 @@ print(Weekday(1))
 print(Weekday(1) == Weekday['Mon'])
 for name, member in Weekday.__members__.items():
     print(name,'=>',member)
->>>>>>> c483fea1abd692d0e260fd05c998e7c361730b21
 class Gender(Enum):
     Male = 0
     Female = 1
@@ -37,13 +30,5 @@ class Student(object):
     def __init__(self, name, gender):
         self.name = name
         self.gender = gender
-<<<<<<< HEAD
-bart = Student('bart',Gender.Male)
-if bart.gender == Gender.Male:
-    print("pass")
-else:
-    print('failed')
-=======
 bart = Student('Bart',Gender.Male)
 print(bart.gender == Gender.Male)
->>>>>>> c483fea1abd692d0e260fd05c998e7c361730b21
