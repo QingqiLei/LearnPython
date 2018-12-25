@@ -21,6 +21,10 @@ print(bwxp)
 ''' common calculation '''
 x = np.array([[1,2],[3,4]], dtype = np.float64)
 y = np.array([[1,6],[7,8]], dtype = np.float64)
+print(x[0:1]) # row
+print(x[:,0:])
+print(x[:,:-1])
+print(x[:,-1:])
 print(x + y) # must have the same shape
 print(x - y)
 print(x*y)
