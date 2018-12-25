@@ -36,3 +36,11 @@ print(res)
 s1 = pd.Series([1,2,3,4], index = ['a','b','c','d'])
 res = df1.append(s1,ignore_index=True)
 print(res)
+import numpy as np
+ran = np.random.rand(4,4)
+df = pd.DataFrame(ran, index = [i for i in range(4)], columns = [i for i in range(4)])
+df
+df.iloc[0,0]
+df2 = df.apply(lambda x:x**2)
+df2
+df2.describe()

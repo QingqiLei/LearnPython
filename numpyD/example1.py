@@ -36,3 +36,11 @@ x = np.array([[1,2,3],[4,5,6],[7,8,9]])
 y = np.array([10,0,10])
 t = x + y
 print(t)
+'''random'''
+ran = np.random.rand(4,4)
+ran
+ran **10
+1/ran
+np.cov(ran)
+np.corrcoef(ran)
+ran[:,0] # first column
