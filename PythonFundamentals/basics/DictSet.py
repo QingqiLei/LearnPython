@@ -13,12 +13,12 @@ print(d)
 print('----------')
 # set
 s = set([1,1,1,1,2,3,3,3])
-print(s)
+print(s, 'this is a set, using {}')
 
 s.remove( 1)
 t = set([3,4,5])
-print(s & t)
-print(s | t)
+print(s & t,'set')
+print(s | t,'set')
 
 print('----------')
 # and let's talk about immutable object
