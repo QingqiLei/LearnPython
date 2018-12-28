@@ -21,6 +21,10 @@ print(bwxp)
 ''' common calculation '''
 x = np.array([[1,2],[3,4]], dtype = np.float64)
 y = np.array([[1,6],[7,8]], dtype = np.float64)
+print(x[0:1]) # row
+print(x[:,0:])
+print(x[:,:-1])
+print(x[:,-1:])
 print(x + y) # must have the same shape
 print(x - y)
 print(x*y)
@@ -32,3 +36,11 @@ x = np.array([[1,2,3],[4,5,6],[7,8,9]])
 y = np.array([10,0,10])
 t = x + y
 print(t)
+'''random'''
+ran = np.random.rand(4,4)
+ran
+ran **10
+1/ran
+np.cov(ran)
+np.corrcoef(ran)
+ran[:,0] # first column
